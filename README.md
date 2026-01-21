@@ -66,7 +66,7 @@ Please use the stable version listed above, we cannot support others.
 ```
 ###### Download and compile the XLX sources
 ```
-# git clone https://github.com/LX3JL/xlxd.git
+# git clone https://github.com/EdHasley/xlxd.git
 # cd xlxd/src/
 # make clean
 # make
@@ -145,3 +145,4 @@ It has nothing to do with the regular YSFReflector network, hence you don’t ne
 Nevertheless it is possible.
 
 © 2016 Jean-Luc Deltombe (LX3JL) and Luc Engelmann (LX1IQ)
+
