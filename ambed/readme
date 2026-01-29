@@ -69,7 +69,7 @@ Follow FTDI provided documentation for installation and testing of the drivers.
 
 2) download and compile ambed
 
-# git clone https://github.com/LX3JL/xlxd.git
+# git clone https://github.com/EdHasley/xlxd.git
 # cd xlxd/ambed/
 # make clean
 # make
