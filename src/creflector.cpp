@@ -356,6 +356,11 @@ void CReflector::RouterThread(CReflector *This, CPacketStream *streamIn)
 
                 // get protocol
                 CProtocol *protocol = This->m_Protocols.GetProtocol(i);
+                if ( protocol == NULL )
+                {
+                    delete packetClone;
+                    continue;
+                }
 
                 // if packet is header, update RPT2 according to protocol
                 if ( packetClone->IsDvHeader() )
