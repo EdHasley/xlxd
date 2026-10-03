@@ -55,7 +55,7 @@ CProtocols::~CProtocols()
     {
         for ( int i = 0; i < m_Protocols.size(); i++ )
         {
-           delete m_Protocols[i];
+           if ( m_Protocols[i] != NULL ) delete m_Protocols[i];
         }
     }
     m_Mutex.unlock();
