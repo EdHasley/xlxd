@@ -85,6 +85,17 @@
 #define PROTOCOL_IMRS                   9
 
 // DExtra
+// Runtime-selectable protocol build switches (1 = enabled, 0 = disabled)
+#define ENABLE_DEXTRA                   1
+#define ENABLE_DPLUS                    1
+#define ENABLE_DCS                      1
+#define ENABLE_XLX                      1
+#define ENABLE_DMRPLUS                  1
+#define ENABLE_DMRMMDVM                 1
+#define ENABLE_YSF                      1
+#define ENABLE_G3                       1
+#define ENABLE_IMRS                     1
+
 #define DEXTRA_PORT                     30001                               // UDP port
 #define DEXTRA_KEEPALIVE_PERIOD         3                                   // in seconds
 #define DEXTRA_KEEPALIVE_TIMEOUT        (DEXTRA_KEEPALIVE_PERIOD*10)        // in seconds
